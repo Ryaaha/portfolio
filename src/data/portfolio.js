@@ -1,23 +1,23 @@
  const PortfolioData = [ //an array of objects
     {
         id: 1,
-        title: 'This website itself :)',
+        title: 'This website',
         imgUrl: 'x',
         stack: ['React', 'Tailwind', 'Vite'],
-        link:'',
+        link:'https://github.com/Ryaaha/portfolio',
     },
     {
         id: 2,
-        title: 'My Github',
+        title:'Text Editor (WIP)',
         imgUrl: 'x',
-        stack: ['x'],
-        link: 'https://github.com/Ryaaha',
+        stack: ['C / C++'],
+        link: 'x',
     },
     {
         id: 3,
-        title:'Text Editor (WIP)',
+        title:'URL Tracker (WIP)',
         imgUrl: 'x',
-        stack: ['x'],
+        stack: ['Python'],
         link: 'x',
     }
 ]
