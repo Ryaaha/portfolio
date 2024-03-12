@@ -2,8 +2,18 @@ import React from "react";
 import PropTypes from 'prop-types';  
 
 function PortfolioItem({ title, imgUrl, stack, link }) {
+  const handleItemClick = () => {
+    // Check if the link is available before navigating
+    if (link) {
+      window.open(link, "_blank");
+    }
+    // Handle the case where there is no link (optional)
+    else {
+      console.log("No link available for this item.");
+    }
+  };
   return (
-    <div className="border-2 border-stone-900 rounded-md overflow-hidden dark:border-white">
+    <div className="border-2 border-stone-900 rounded-md overflow-hidden dark:border-white" onClick={handleItemClick}>
       <img src={imgUrl} alt="portfolio" className="w-full h-36 md:h-48 object-cover cursor-pointer" />
       <div className="w-full p-4">
         <h3 className="text-lg dark:text-white md:text-xl mb-2 md:mb-3 font-semibold">

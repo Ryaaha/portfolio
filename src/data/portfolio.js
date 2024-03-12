@@ -18,7 +18,7 @@
         title:'Survivor Game in Godot 4',
         imgUrl: '../../assets/images/editor.png',
         stack: ['Godot'],
-        link: '#',
+        link: '',
     }
 ]
 
