@@ -1,4 +1,4 @@
- const PortfolioData = [ //an array of objects
+ const PortfolioData = [
     {
         id: 1,
         title: 'This website',
@@ -8,17 +8,17 @@
     },
     {
         id: 2,
-        title:'Text Editor (WIP)',
-        imgUrl: '../../assets/images/editor.png',
-        stack: ['C / C++'],
-        link: 'x',
+        title:'Clipboard Tracker',
+        imgUrl: '../../assets/images/clipboard.png',
+        stack: ['Python'],
+        link: 'https://github.com/Ryaaha/Clipboard-Tracker',
     },
     {
         id: 3,
-        title:'URL Tracker (WIP)',
-        imgUrl: '../../assets/images/clipboard.png',
-        stack: ['Python'],
-        link: 'x',
+        title:'Survivor Game in Godot 4',
+        imgUrl: '../../assets/images/editor.png',
+        stack: ['Godot'],
+        link: '#',
     }
 ]
 
